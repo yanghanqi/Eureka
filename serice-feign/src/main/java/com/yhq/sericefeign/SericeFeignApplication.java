@@ -15,3 +15,6 @@ public class SericeFeignApplication {
 		SpringApplication.run(SericeFeignApplication.class, args);
 	}
 }
+
+
+///
