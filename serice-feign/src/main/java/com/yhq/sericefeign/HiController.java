@@ -13,6 +13,7 @@ public class HiController {
     SchedualServiceHi schedualServiceHi;
     @RequestMapping(value = "/hi",method = RequestMethod.GET)
     public String sayHi(@RequestParam String name){
+        System.out.println("hello");
         return schedualServiceHi.sayHiFromClientOne(name);
     }
 }
